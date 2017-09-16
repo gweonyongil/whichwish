@@ -1,4 +1,4 @@
-package mobile.cau.swopenhack;
+package com.example.win10_pc.whichwish.Main;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import com.example.win10_pc.whichwish.R;
 
 import java.util.ArrayList;
 
@@ -18,6 +20,12 @@ public class WishListAdapter extends BaseAdapter {
 
     public WishListAdapter(){
 
+    }
+    public ArrayList<WishListViewItem> getListViewItems(){
+        return listViewItems;
+    }
+    public void setArrayList(ArrayList<WishListViewItem> listViewItems){
+        this.listViewItems = listViewItems;
     }
     @Override
     public int getCount() {
