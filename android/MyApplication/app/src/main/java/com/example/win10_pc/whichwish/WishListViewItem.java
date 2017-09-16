@@ -1,4 +1,4 @@
-package com.example.win10_pc.whichwish.Main;
+package com.example.win10_pc.whichwish;
 
 import java.io.Serializable;
 

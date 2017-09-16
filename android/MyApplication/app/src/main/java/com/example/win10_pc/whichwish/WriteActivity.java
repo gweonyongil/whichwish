@@ -1,9 +1,7 @@
-package com.example.win10_pc.whichwish.Write;
+package com.example.win10_pc.whichwish;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import com.example.win10_pc.whichwish.R;
+import android.support.v7.app.AppCompatActivity;
 
 public class WriteActivity extends AppCompatActivity {
 

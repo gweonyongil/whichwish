@@ -1,4 +1,4 @@
-package com.example.win10_pc.whichwish.Main;
+package com.example.win10_pc.whichwish;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,8 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
-import com.example.win10_pc.whichwish.R;
 
 import java.util.ArrayList;
 
